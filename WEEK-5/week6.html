@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>amrita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+        .card button {
+            margin-top: 10px;
+            padding: 8px 15px;
+            border: none;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .card button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <img src="Taj Mahal.jpg" alt="Card Image">
+        <div class="card-content">
+            <h3>Taj mahal</h3>
+            <p>Agra</p>
+            <button>Click Here</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="India Gate.jpg" alt="Card Image">
+        <div class="card-content">
+            <h3>India Gate</h3>
+            <p>Delhi</p>
+            <button>Click Here</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="Gateway of India.jpg" alt="Card Image">
+        <div class="card-content">
+            <h3>Gateway of India</h3>
+            <p>Mumbai</p>
+            <button>Click Here</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
